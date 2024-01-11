@@ -1,0 +1,64 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #dd1264, #fc63a7);
+  height: 140vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.namesCardContainer {
+  display: flex;
+  flex-direction: column;
+  /* border-style: solid;
+  border-color: #000000; */
+}
+@media all and (min-width: 768px) {
+  .namesCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.nameCard {
+  padding: 30px;
+  /* border-style: solid;
+  border-color: white; */
+  width: 330px;
+  height: 300px;
+}
+.name {
+  font-size: 26px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  width: 270px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.btn {
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  color: #fc63a7;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+.showhideHeading {
+  font-size: 36px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
